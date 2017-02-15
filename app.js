@@ -8,8 +8,7 @@ app.get("/", function(req, res){
 
 app.get("/fallinlovewith/:thing", function(req, res){
     var thing = req.params.thing.toLowerCase();
-    res.send("<h1>Fall in love with " + thing+ "."</h1>);
-    
+    res.send("<h1>You fell in love with " + thing+ ".</h1>");
 });
 
 //the first two arguments are specific to the cloud9 environment

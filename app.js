@@ -3,7 +3,7 @@ var app = express();
 
 //this is the root route
 app.get("/", function(req, res){
-    res.send("<h1>Welcome to the home page</h1>");
+    res.render("views/view.ejs");
 });
 
 //the first two arguments are specific to the cloud9 environment

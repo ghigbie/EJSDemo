@@ -25,9 +25,9 @@ app.get("/posts", function(req, res){
      res.render("posts", {posts: posts});
 });
 
-// app.get("*", function(req, res){
-//     res.send("<h1>This page is not here</h1>");
-// });
+app.get("*", function(req, res){
+    res.send("<h1>This page is not here</h1>");
+});
 
 //the first two arguments are specific to the cloud9 environment
 app.listen(process.env.PORT, process.env.IP, function(){

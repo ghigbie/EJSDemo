@@ -16,7 +16,7 @@ app.get("/posts", function(req, res){
         {title: "Post 1", author: "Susy"},
         {title: "Cats are awesome 2", author: "Beth"},
         {title: "Cows are awesome 3", author: "Jill"},
-        {title: "Dogs are cool too 4", author: "Nat"},
+        {title: "Dogs are cool too 4", author: "Liz"},
      ];
      
      res.render("posts.ejs", {posts: posts});
